@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 from pytube import YouTube
-import moviepy.editor as moviepy
 import youtube_dl
 
 

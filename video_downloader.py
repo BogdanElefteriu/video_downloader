@@ -23,8 +23,9 @@ def download_video():
             elif 'facebook' in link.lower():
                 download_fb(link)
                 st.session_state.user_input = ""
-        except:
+        except Exception as e:
             st.write(":red[A aparut o eroare in procesul de descarcare a acestui video. Te rog sa incerci alt video.]")
+            st.write(e)
                 
 
 

@@ -1,0 +1,5 @@
+pytube==15.0.0
+scrapetube==2.5.1
+selenium==4.15.2
+streamlit==1.31.1
+youtube-dl==2021.12.17

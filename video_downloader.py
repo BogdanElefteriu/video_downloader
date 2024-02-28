@@ -35,7 +35,7 @@ st.title("Descarca video (Youtube; Facebook)")
 link = st.text_input(label="Introdu link-ul video-ului:", key="user_input", on_change=download_video)
 
 for file in os.listdir():
-    if '.mp4' not in file:
+    if '.mp4' in file:
         st.video(os.path.join(os.getcwd(), file))
 
         if st.download_button(label = "Descarca video-ul",
